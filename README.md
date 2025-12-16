@@ -2,6 +2,14 @@
 
 A React component library for Figma Sites, built with Tailwind CSS.
 
+## Development
+
+To run the demo page locally:
+
+```bash
+npm run dev
+```
+
 ## Installation
 
 ```bash
