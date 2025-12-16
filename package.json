@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "npm run build && npm publish --access public"
   },
   "peerDependencies": {
     "react": "^18.0.0",
