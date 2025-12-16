@@ -77,13 +77,13 @@ export const navData = [
           {
             name: 'Webseiten und Portale',
             description: 'Für Marketing, Wissen & Support',
-            href: '/websites',
+            href: '/webseiten-und-portale',
             icon: CursorArrowRaysIcon,
           },
           {
             name: 'Web & Software Entwicklung',
             description: 'Custom Solutions für Ihre speziellen Anforderungen',
-            href: '#',
+            href: '/web-entwicklung',
             icon: CircleStackIcon,
           },
           {
