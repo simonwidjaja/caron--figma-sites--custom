@@ -24,7 +24,7 @@ const Link = ({ href, children, className }) => <a href={href} className={classN
 const Image = ({ src, alt, className, width, height }) => <img src={src} alt={alt} className={className} width={width} height={height} />;
 const Button = ({ children, className }) => <button className={`bg-blue-600 text-white px-4 py-2 rounded ${className}`}>{children}</button>;
 const cn = (...classes) => classes.filter(Boolean).join(' ');
-const LanguageSwitcher = () => <div className="text-sm font-semibold text-gray-900">DE/EN</div>;
+const LanguageSwitcher = () => <></> // <div className="text-sm font-semibold text-gray-900">DE/EN</div>;
 const getLocalizedUrlFromHref = (href) => href;
 const GlobalConfig = { brand: { name: 'Caron' } };
 
@@ -53,12 +53,12 @@ export default function HeaderNavigation({ lang }) {
   }, []);
 
   return (
-    <header className="m-auto w-full max-w-[1600px] relative isolate z-10 bg-white">
+    <header className="m-auto w-full max-w-[1600px] relative px-4 isolate z-10 bg-white">
       <nav aria-label="Global" className="mx-auto flex items-center justify-between p-6 lg:px-3">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">{GlobalConfig.brand.name}</span>
-            <Brand className="h-6 w-auto" />
+            <Brand className="mt-1 h-6 w-auto" />
           </Link>
         </div>
 
