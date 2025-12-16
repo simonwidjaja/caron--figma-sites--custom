@@ -1,6 +1,6 @@
 {
   "name": "caron--figma-sites--custom",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React components for Figma Sites",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
