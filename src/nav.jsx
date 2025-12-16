@@ -26,13 +26,13 @@ export const navData = [
           {
             name: 'Technische Redaktion',
             description: 'Präzise Dokumentation für komplexe Produkte und Systeme',
-            href: '#',
+            href: '/redaktion',
             icon: PencilSquareIcon,
           },
           {
             name: 'Visualisierung',
             description: 'Komplexe Sachverhalte anschaulich dargestellt',
-            href: '#',
+            href: '/visualisierung',
             icon: CursorArrowRaysIcon,
           },
           {
